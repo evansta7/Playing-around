@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include <stdio.h>
 
 int	ft_strlen(char *str)
 {
@@ -9,7 +9,7 @@ int	ft_strlen(char *str)
 	{
 		i++;
 	}
-	write(1, &i, 1);
+	printf("%i", i);
 	return (i);
 }
 
